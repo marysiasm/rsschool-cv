@@ -18,6 +18,10 @@ body {
     box-sizing: border-box;
 }
 
+.colum {
+    display: flex;
+}
+
 .left-colum {
     width: 33.3%;
     background-color: $main-color;
@@ -32,7 +36,6 @@ body {
 .right-colum {
     width: 66.7%;
     padding-left: 30px;
- 
     
 }
 
@@ -44,13 +47,7 @@ body {
     text-transform: uppercase;
 }
 
-.colum {
-    display: flex;
-}
-
-.header {
-    display: flex;
-    width: 100%;
+.header {   
 
     &__avatar {
         width: 100%;
@@ -81,6 +78,8 @@ body {
     }
 }
 .about {
+    margin-bottom: 70px;
+
     &__title {
         margin-bottom: 16px;
         color: $main-color;
@@ -158,9 +157,20 @@ body {
     &__year {
         color:$sub-color;
         margin-bottom: 22px;
-    }
+    }         
 
-          
+}
+
+.skills {
+    margin-bottom: 70px;
+    
+    &__list {
+        display: flex;
+    }
+}
+
+.code {
+    margin-bottom: 70px;
 
 }
 

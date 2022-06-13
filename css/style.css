@@ -383,6 +383,12 @@ body {
           box-sizing: border-box;
 }
 
+.colum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .left-colum {
   width: 33.3%;
   background-color: #3A3A3A;
@@ -405,19 +411,6 @@ body {
   font-weight: 600;
   color: #3A3A3A;
   text-transform: uppercase;
-}
-
-.colum {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
 }
 
 .header__avatar {
@@ -452,6 +445,10 @@ body {
   line-height: 23px;
   font-weight: 400;
   margin-bottom: 93px;
+}
+
+.about {
+  margin-bottom: 70px;
 }
 
 .about__title {
@@ -540,5 +537,19 @@ body {
 .footer__year {
   color: #7E7E7E;
   margin-bottom: 22px;
+}
+
+.skills {
+  margin-bottom: 70px;
+}
+
+.skills__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.code {
+  margin-bottom: 70px;
 }
 /*# sourceMappingURL=style.css.map */
